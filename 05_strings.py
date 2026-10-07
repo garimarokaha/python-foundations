@@ -65,3 +65,4 @@ print(f"my name is {name.title()}, my goal is to become {goal.title()}, my age i
 
 print(len(name)) #to calculate length of the name 
 print(f"my name is {name }, my age is {age}, my goal is {goal}".upper()) #to convert the whole string into upper case
+print("garima ")
