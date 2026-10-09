@@ -21,3 +21,12 @@ skills = {"Python", "AI", "Python", "ML", "AI"}
 print(skills)
 print(len(skills)) #length 3 aayo unique value kei aauchha.
 
+#but sets can be modified, we can add or remove elements from a set.
+skills = {"python", "AI", "ML"}
+skills.add("Data Science") #add garna ko lagi add() method use garincha.
+print(skills)
+
+#unilke lists , sets use .add() rather than .append().
+#to remove an element we use .discard() method.
+skills.discard("AI")
+print(skills)
